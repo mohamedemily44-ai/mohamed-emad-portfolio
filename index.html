@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohamed Emad's personal portfolio website">
+  <title>Mohamed Emad | Web Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">ME<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero section-pad" id="home">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <p class="eyebrow"><span class="status-dot"></span> INFORMATION SYSTEMS STUDENT</p>
+            <h1>Hi, I'm <span class="gradient-text">Mohamed Emad</span><br>Building my future in tech.</h1>
+            <p class="hero-copy">I'm an Information Systems student at Delta Institute, passionate about web development, clean design, and creating useful digital experiences.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-primary-custom" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+              <a class="btn btn-outline-custom" href="#contact">Get in touch</a>
+            </div>
+            <div class="hero-meta mt-5">
+              <div><strong>HTML</strong><span>Structure</span></div>
+              <div><strong>CSS</strong><span>Design</span></div>
+              <div><strong>Bootstrap</strong><span>Responsive UI</span></div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="portrait-wrap">
+              <div class="portrait-glow"></div>
+              <img src="assets/profile.png" class="portrait" alt="Portrait of Mohamed Emad">
+              <div class="floating-card"><span class="code-icon">&lt;/&gt;</span><div><strong>Learning by building</strong><small>One project at a time</small></div></div>
+              <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="about">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious mind. <span class="gradient-text">Creative builder.</span></h2></div>
+        <div class="row g-4 mt-2">
+          <div class="col-lg-8"><div class="panel h-100"><p class="large-copy">My name is Mohamed Emad Mohamed Suleiman Hamouda. I'm studying Information Systems at Delta Institute and developing my skills in front-end web development.</p><p class="muted mb-0">I enjoy learning how websites work, turning ideas into clear layouts, and improving my code with every project. I'm currently focused on strengthening my foundations in HTML, CSS, and Bootstrap.</p></div></div>
+          <div class="col-lg-4"><div class="panel h-100 detail-panel"><span class="detail-icon">⌘</span><h3>Education</h3><p class="mb-1">Delta Institute</p><p class="muted small mb-0">Information Systems</p><div class="line"></div><span class="detail-icon">◎</span><h3>Current focus</h3><p class="muted mb-0">Responsive websites & front-end fundamentals</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-tint" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">WHAT I'M LEARNING</p><h2>Skills & <span class="gradient-text">tools</span></h2><p class="muted">The foundations I use to create web experiences.</p></div>
+        <div class="row g-3 mt-3">
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><span class="skill-number">01</span><div class="skill-symbol orange">5</div><h3>HTML5</h3><p class="muted">Semantic page structure and accessible content.</p><div class="skill-track"><span style="width:80%"></span></div></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><span class="skill-number">02</span><div class="skill-symbol blue">✳</div><h3>CSS3</h3><p class="muted">Layouts, typography, colors, and visual polish.</p><div class="skill-track"><span style="width:70%"></span></div></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><span class="skill-number">03</span><div class="skill-symbol purple">B</div><h3>Bootstrap</h3><p class="muted">Responsive grids and reusable UI components.</p><div class="skill-track"><span style="width:65%"></span></div></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><span class="skill-number">04</span><div class="skill-symbol green">⌘</div><h3>Problem Solving</h3><p class="muted">Breaking tasks down and learning through practice.</p><div class="skill-track"><span style="width:70%"></span></div></div></div>
+        </div>
+        <p class="small muted mt-3">Skill bars are illustrative; adjust them to match your actual experience.</p>
+      </div>
+    </section>
+
+    <section class="section-pad" id="projects">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">SELECTED PRACTICE WORK</p><h2>Projects I've <span class="gradient-text">been exploring</span></h2><p class="muted">Sample project cards for this portfolio assignment. Replace them with your own work as you build it.</p></div>
+        <div class="row g-4 mt-2">
+          <div class="col-md-6 col-lg-4"><article class="project-card"><div class="project-preview preview-one"><div class="mock-window"><span></span><span></span><span></span><div class="mock-lines"></div><div class="mock-block"></div></div></div><div class="project-content"><div class="d-flex justify-content-between align-items-center"><span class="tag">HTML · CSS</span><span class="project-index">01</span></div><h3>Personal Portfolio</h3><p class="muted">A responsive personal website introducing my background, skills, and learning journey.</p></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="project-card"><div class="project-preview preview-two"><div class="mini-dashboard"><div class="dash-side"></div><div class="dash-main"><i></i><i></i><div class="dash-chart"></div></div></div></div><div class="project-content"><div class="d-flex justify-content-between align-items-center"><span class="tag">Bootstrap</span><span class="project-index">02</span></div><h3>Dashboard UI Concept</h3><p class="muted">A practice dashboard layout using cards, spacing, and a responsive grid.</p></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="project-card"><div class="project-preview preview-three"><div class="landing-demo"><div class="demo-pill"></div><div class="demo-title"></div><div class="demo-title short"></div><div class="demo-button"></div></div></div><div class="project-content"><div class="d-flex justify-content-between align-items-center"><span class="tag">Responsive Design</span><span class="project-index">03</span></div><h3>Landing Page Concept</h3><p class="muted">A clean landing-page concept focused on clear messaging and visual hierarchy.</p></div></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad contact-section" id="contact">
+      <div class="container"><div class="contact-box"><div><p class="eyebrow">LET'S CONNECT</p><h2>Have a project or idea?</h2><p class="muted mb-0">I'm always interested in learning, collaborating, and building something useful.</p></div><a class="btn btn-primary-custom" href="mailto:your.email@example.com">Email me <span aria-hidden="true">↗</span></a></div>
+        <p class="small muted contact-note">Before publishing, replace the example email with your real contact address and add your GitHub profile link.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026 Mohamed Emad. Built with HTML, CSS & Bootstrap.</span><a href="#home">Back to top ↑</a></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
